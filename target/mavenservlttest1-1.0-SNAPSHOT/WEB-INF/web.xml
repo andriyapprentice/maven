@@ -16,4 +16,16 @@
         <url-pattern>/next</url-pattern>
         <url-pattern>/save</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UsersServlet</servlet-name>
+        <servlet-class>ua.com.owu.servlet.UsersServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>UsersServlet</servlet-name>
+    <url-pattern>/showUsers</url-pattern>
+
+</servlet-mapping>
+
 </web-app>

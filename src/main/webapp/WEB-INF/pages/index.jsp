@@ -13,7 +13,8 @@
     <input type="submit" name="save">
 
 </form>
-
+<br>
+<a href="/showUsers">show users</a>
 
 </body>
 </html>
